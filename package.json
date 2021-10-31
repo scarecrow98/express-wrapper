@@ -1,0 +1,31 @@
+{
+  "name": "express-wrapper",
+  "version": "1.0.0",
+  "description": "This is a simple library that is built around Express JS to use it with controller classes and decorators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarecrow98/express-wrapper.git"
+  },
+  "keywords": [
+    "express",
+    "mvc",
+    "controllers",
+    "decorators",
+    "typescript"
+  ],
+  "author": "Ferenc Revesz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scarecrow98/express-wrapper/issues"
+  },
+  "homepage": "https://github.com/scarecrow98/express-wrapper#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.4.4"
+  }
+}
