@@ -4,7 +4,8 @@
   "description": "This is a simple library that is built around Express JS to use it with controller classes and decorators",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/main.js"
   },
   "repository": {
     "type": "git",
@@ -24,8 +25,10 @@
   },
   "homepage": "https://github.com/scarecrow98/express-wrapper#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "reflect-metadata": "^0.1.13",
+    "@types/express": "^4.17.13",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
     "typescript": "^4.4.4"
   }
 }
