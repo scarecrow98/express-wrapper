@@ -29,14 +29,14 @@ import { Controller, Get, Post } from  "../../core/decorators";
 
 @Controller('/my')
 export class MyController {
-	@Get('/test')
-	getTest(req: Request, res: Response) {
-		res.send('Hello, World!');
-	}
-	
-	@Post('/test')
-	postTest() {
-		...
-	}
+    @Get('/test')
+    getTest(req: Request, res: Response) {
+        res.send('Hello, World!');
+    }
+
+    @Post('/test')
+    postTest() {
+        ...
+    }
 }
 ```
